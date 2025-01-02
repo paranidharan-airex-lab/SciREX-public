@@ -1,4 +1,6 @@
 site_name: .
+site_name: .
+
 theme:
   name: material
   features:
@@ -13,20 +15,12 @@ theme:
     - content.code.copy
   language: en
   palette:
-    - scheme: default
-      toggle:
-        icon: material/toggle-switch-off-outline 
-        name: Switch to dark mode
-      primary: teal
-      accent: purple 
-    - scheme: slate 
-      toggle:
-        icon: material/toggle-switch
-        name: Switch to light mode    
-      primary: teal
-      accent: lime
+    scheme: slate   # Enforces dark mode
+    primary: teal
+    accent: light-blue
+  logo: assets/image.png
+  favicon: assets/favicon.ico
 
-    
   logo: assets/image.png
 
 
